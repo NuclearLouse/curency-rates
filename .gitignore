@@ -1,4 +1,4 @@
 other.txt
 currency-rates
 *.exe
-!main/
+!main/curency-rates
