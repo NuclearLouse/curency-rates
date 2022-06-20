@@ -3,6 +3,6 @@ LDFLAGS=-ldflags "-X currency-rates/internal/service.version=${VERSION}"
 
 .PHONY: build
 build:
-	go build ${LDFLAGS} -mod vendor -v ./currency-rates
+	go build ${LDFLAGS} -mod vendor -v ./main/currency-rates
 
 .DEFAULT_GOAL := build
